@@ -1,0 +1,30 @@
+.cart-container {
+    background: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0);
+    backdrop-filter: (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+.table {
+    background-color: transparent !important;
+    color: #fdfafa;
+}
+.table th,
+.table td {
+    background-color: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: (6px);
+}
+.form-control {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+.form-control:focus {
+    background-color: rgb(240, 224, 224);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}

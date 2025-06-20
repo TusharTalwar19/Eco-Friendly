@@ -1,0 +1,14 @@
+.bg-image {
+    background-image: url('/images/L11.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    padding: 2rem;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0);
+    /* backdrop-filter: blur(12px); */
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: white;
+}
